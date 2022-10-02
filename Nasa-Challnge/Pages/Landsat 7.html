@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDSAT 7</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        /*                              sectionone(navbar)                    */
+        .sectionone {
+            color: white;
+        }
+
+        .sectionone {
+            background-image: url(../image/Landsat-7-sm.jpg);
+            background-size: 100% 100%;
+            height: 70vh;
+            position: relative;
+            background-attachment: fixed;
+        }
+
+        .layer {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .dropdown {
+            width: 100px;
+        }
+
+        i {
+            padding-left: 30px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            width: 100%;
+            overflow: auto;
+            box-shadow: 0px 10px 10px 0px rgba(152, 15, 15, 0.4);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            color: rgb(255, 251, 5);
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            color: white;
+            background-color: rgba(255, 251, 5, 0.316);
+        }
+
+        .fonth2 {
+            font-size: 4rem;
+            color: white;
+            margin-top: 120px;
+            padding: 30px;
+            margin-bottom: 10px;
+            border-radius: 40%;
+            box-shadow: 0px 10px 10px 0px rgb(255, 251, 5);
+        }
+
+        .fontp {
+            font-size: 17px;
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 40%;
+            box-shadow: 0px 10px 10px 0px rgb(255, 251, 5);
+        }
+
+        .fontp:hover {
+            box-shadow: 0px 10px 10px 0px rgba(216, 13, 13, 0.4);
+        }
+
+        .fonth2:hover {
+            box-shadow: 0px 10px 10px 0px rgba(216, 13, 13, 0.4);
+        }
+
+        .LANDSAT::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 70px;
+            height: 3px;
+            background: rgb(255, 251, 5);
+            bottom: -10%;
+            left: calc(50% - 25px);
+        }
+
+        .LANDSAT {
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            position: relative;
+        }
+
+        /* section two */
+        .sectiontwo {
+            width: 100%;
+            background-color: black;
+        }
+
+        img {
+            border-radius: 25px;
+            box-shadow: 10px 10px 10px 0px rgb(255, 251, 5);
+            transition: all 1s;
+        }
+
+        img:hover {
+            box-shadow: 10px 10px 10px 0px rgba(216, 13, 13, 0.4);
+        }
+
+        .acrim {
+            color: rgba(216, 13, 13, 0.4);
+        }
+
+        .acrim:hover {
+            color: rgb(255, 251, 5);
+        }
+
+    </style>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../webfonts">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="sectionone  pb-5">
+        <div class="layer position-absolute top-0 bottom-0 start-0 end-0  ">
+            <nav class="navbar navbar-expand-lg fixed">
+                <div class="container d-flex align-baseline">
+                    <h1 class="navbar-brand" style="color: white;">Aliens<span style="color: yellow;">.</span></h1>
+                    <div class="dropdown">
+                        <i class="fa-solid fa-bars fa-2x fa-light"></i>
+                        <div class="dropdown-content">
+                            <a href="../index.html">HOME</a>
+                            <a href="ACRIMSAT.html">ACRIMSAT</a>
+                            <a href="AQUA.html">AQUA</a>
+                            <a href="AURA.html">AURA</a>
+                            <a href="ICESAT.html">ICESAT</a>
+                            <a href="Jason-1.html">JASON-1</a>
+                            <a href="QuikSCAT.html">QUIKSCAT</a>
+                            <a href="SAGE-III.html">SAGE-III</a>
+                            <a href="SORCE.html">SORCE</a>
+                            <a href="Terra.html">TERRA</a>
+                        </div>
+                    </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- section two  -->
+
+
+    <div class="sectiontwo">
+        <div class="text-center text-white pt-5 LANDSAT">
+            <h1>LANDSAT</h1>
+        </div>
+        <div class="text-center p-5 img">
+            <img src="../image/Picture6.jpg" alt="LANDSAT">
+        </div>
+        <div class="container d-flex align-content-between text-center text-light pb-5">
+            <div class="col-6">
+                <ul style="list-style: none;">
+                    <li><strong>Status </strong>: Current, Extended Mission.</li>
+                    <li><strong>Mission Category </strong>: Earth Observing System (EOS).</li>
+                    <li><strong>Launch Date </strong>: April 15, 1999.</li>
+                    <li><strong>Launch Location </strong>: Vandenberg Air Force Base, CA.</li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul style="list-style: none;">
+                    <li><strong>Relevant Science Focus Areas </strong>:</li>
+                    <li>Carbon Cycle, Ecosystems, and Biogeochemistry.</li>
+                    <li>Earth Surface and Interior.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-light">
+            <h1 class="LANDSAT text-center">Science Goals</h1>
+            <ul class="p-5">
+                <li>Acquire sunlit, essentially cloud-free global seasonal coverage of Earth & rsquo;s land masses.</li>
+                <li>Provide well-calibrated radiometric and geometric data.</li>
+                <li>Meet requirements for global-change research by providing imagery that are consistent <br>
+                    with the acquisition geometry, spatial resolution, spectral.</li>
+                <li>
+                    characteristics, and calibration of previous Landsat data.
+                </li>
+            </ul>
+        </div>
+        <div class="container d-flex align-content-between row text-light pb-5">
+            <div class="col-lg-6 col-sm-12">
+                <h1 class="LANDSAT text-center">Related Applications</h1>
+                <ul>
+                    <li>Agricultural Efficiency.</li>
+                    <li>Air Quality.</li>
+                    <li>Aviation.</li>
+                    <li>Carbon Management.</li>
+                    <li>Coastal Management.</li>
+                    <li>Disaster Management.</li>
+                    <li>Ecological Forecasting.</li>
+                    <li>Energy Management.</li>
+                    <li>Homeland Security.</li>
+                    <li>Invasive Species.</li>
+                    <li>Public Health.</li>
+                    <li>Water Management.</li>
+                </ul>
+
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h1 class="LANDSAT text-center">Related Links</h1>
+                <ul style="list-style: none;">
+                    <li class="text-center pt-2">ETM+ Instrument  :<a class="acrim"
+                            href="http://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/ETM">
+                            http://eros.usgs.gov/#/Find_Data/Products_and_Data_Available/ETM</a></li>
+                    <li class="text-center pt-2">Landsat 7 Homepage :<a class="acrim" href="http://landsat.gsfc.nasa.gov/">
+                        http://landsat.gsfc.nasa.gov/</a></li>
+                        <li class="text-center pt-2">Landsat 7 Imagery  :<a class="acrim" href="http://visibleearth.nasa.gov/view_cat.php?categoryID=0">
+                            http://visibleearth.nasa.gov/view_cat.php?categoryID=0/</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

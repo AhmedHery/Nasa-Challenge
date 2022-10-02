@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUA</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        /*                              sectionone(navbar)                    */
+        .sectionone {
+            color: white;
+        }
+
+        .sectionone {
+            background-image: url(../image/100_12_aqua-lrg.en.jpg);
+            background-size: 100% 100%;
+            height: 70vh;
+            position: relative;
+            background-attachment: fixed;
+        }
+
+        .layer {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .dropdown {
+            width: 100px;
+        }
+
+        i {
+            padding-left: 30px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            width: 100%;
+            overflow: auto;
+            box-shadow: 0px 10px 10px 0px rgba(152, 15, 15, 0.4);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            color: rgb(255, 251, 5);
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            color: white;
+            background-color: rgba(255, 251, 5, 0.316);
+        }
+
+        .fonth2 {
+            font-size: 4rem;
+            color: white;
+            margin-top: 120px;
+            padding: 30px;
+            margin-bottom: 10px;
+            border-radius: 40%;
+            box-shadow: 0px 10px 10px 0px rgb(255, 251, 5);
+        }
+
+        .fontp {
+            font-size: 17px;
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 40%;
+            box-shadow: 0px 10px 10px 0px rgb(255, 251, 5);
+        }
+
+        .fontp:hover {
+            box-shadow: 0px 10px 10px 0px rgba(216, 13, 13, 0.4);
+        }
+
+        .fonth2:hover {
+            box-shadow: 0px 10px 10px 0px rgba(216, 13, 13, 0.4);
+        }
+
+        .AQUA::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 70px;
+            height: 3px;
+            background: rgb(255, 251, 5);
+            bottom: -10%;
+            left: calc(50% - 25px);
+        }
+
+        .AQUA {
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            position: relative;
+        }
+
+        /* section two */
+        .sectiontwo {
+            width: 100%;
+            background-color: black;
+        }
+
+        img {
+            border-radius: 25px;
+            box-shadow: 10px 10px 10px 0px rgb(255, 251, 5);
+            transition: all 1s;
+        }
+
+        img:hover {
+            box-shadow: 10px 10px 10px 0px rgba(216, 13, 13, 0.4);
+        }
+
+        .acrim {
+            color: rgba(216, 13, 13, 0.4);
+        }
+
+        .acrim:hover {
+            color: rgb(255, 251, 5);
+        }
+
+    </style>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../webfonts">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="sectionone  pb-5">
+        <div class="layer position-absolute top-0 bottom-0 start-0 end-0  ">
+            <nav class="navbar navbar-expand-lg fixed">
+                <div class="container d-flex align-baseline">
+                    <h1 class="navbar-brand" style="color: white;">Aliens<span style="color: yellow;">.</span></h1>
+                    <div class="dropdown">
+                        <i class="fa-solid fa-bars fa-2x fa-light"></i>
+                        <div class="dropdown-content">
+                            <a href="../index.html">Home</a>
+                            <a href="ACRIMSAT.html">ACRIMSAT</a>
+                            <a href="AURA.html">AURA</a>
+                            <a href="ICESAT.html">ICESAT</a>
+                        </div>
+                    </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- section two  -->
+
+
+    <div class="sectiontwo">
+        <div class="text-center text-white pt-5 AQUA">
+            <h1>AQUA</h1>
+        </div>
+        <div class="text-center p-5 img">
+            <img src="../image/Picture2.jpg" alt="AQUQ">
+        </div>
+        <div class="container d-flex align-content-between text-center text-light pb-5">
+            <div class="col-6">
+                <ul style="list-style: none;">
+                    <li><strong>Status </strong>: Current, Extended Mission.</li>
+                    <li><strong>Mission Category </strong>: Earth Observing System (EOS), A-Train.</li>
+                    <li><strong>Launch Date </strong>: May 4, 2002.</li>
+                    <li><strong>Launch Location </strong>: Vandenberg Air Force Base, CA.</li>
+                    <li><strong>Designed Life </strong>: May 4, 2008.</li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul style="list-style: none;">
+                    <li><strong>Relevant Science Focus Areas </strong>:</li>
+                    <li>Atmospheric Composition.</li>
+                    <li>Carbon Cycle, Ecosystems, and Biogeochemistry.</li>
+                    <li>Climate Variability and Change.</li>
+                    <li>Water and Energy Cycles.</li>
+                    <li>Weather.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-light">
+            <h1 class="AQUA text-center">Science Goals</h1>
+            <ul class="p-5">
+                <li>Enhanced understanding of water in the Earth's climate.</li>
+                <li>system and the global water cycle.</li>
+                <li>Enhanced understanding of additional components of the Earth's climate system and their
+                    interactions.</li>
+                <li>Improved weather forecasting.</li>
+            </ul>
+        </div>
+        <div class="container d-flex align-content-between row text-light pb-5">
+            <div class="col-lg-6 col-sm-12">
+                <h1 class="AQUA text-center">Related Applications</h1>
+                <ul>
+                    <li>Agricultural Efficiency.</li>
+                    <li>Air Quality.</li>
+                    <li>Carbon Management.</li>
+                    <li>Coastal Management.</li>
+                    <li>Disaster Management.</li>
+                    <li>Ecological Forecasting.</li>
+                    <li>Homeland Security.</li>
+                    <li>Water Management.</li>
+                </ul>
+
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h1 class="AQUA text-center">Related Links</h1>
+                <ul style="list-style: none;">
+                    <li class="text-center">Aqua Homepage :<a class="acrim" href="http://aqua.nasa.gov/">
+                            http://aqua.nasa.gov/</a></li>
+                    <li class="text-center">Aqua Imagery :<a class="acrim"
+                            href="http://visibleearth.nasa.gov/view_cat.php?categoryID=0">
+                            http://visibleearth.nasa.gov/view_cat.php?categoryID=0</a></li>
+                    <li class="text-center">AIRS Homepage :<a class="acrim" href="http://www-airs.jpl.nasa.gov/">
+                            http://www-airs.jpl.nasa.gov/</a></li>
+                    <li class="text-center">AMSR-E Homepage :<a class="acrim" href="http://wwwghcc.msfc.nasa.gov/AMSR/">
+                            http://wwwghcc.msfc.nasa.gov/AMSR/</a></li>
+                    <li class="text-center">MODIS Instrument :<a class="acrim" href="http://modis.gsfc.nasa.gov/">
+                            http://modis.gsfc.nasa.gov/</a></li>
+                    <li class="text-center">CERES Homepage :<a class="acrim" href="http://ceres.larc.nasa.gov/">
+                            http://ceres.larc.nasa.gov/</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

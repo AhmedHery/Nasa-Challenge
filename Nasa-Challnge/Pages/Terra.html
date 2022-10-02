@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TERRA</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        /*                              sectionone(navbar)                    */
+        .sectionone {
+            color: white;
+        }
+
+        .sectionone {
+            background-image: url(../image/OIP\ \(4\).jfif);
+            background-size: 100% 100%;
+            height: 70vh;
+            position: relative;
+            background-attachment: fixed;
+        }
+
+        .layer {
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .dropdown {
+            width: 100px;
+        }
+
+        i {
+            padding-left: 30px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            width: 100%;
+            overflow: auto;
+            box-shadow: 0px 10px 10px 0px rgba(152, 15, 15, 0.4);
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            color: rgb(255, 251, 5);
+            padding: 5px;
+            text-decoration: none;
+        }
+
+        .dropdown-content a:hover {
+            color: white;
+            background-color: rgba(255, 251, 5, 0.316);
+        }
+
+        .fonth2 {
+            font-size: 4rem;
+            color: white;
+            margin-top: 120px;
+            padding: 30px;
+            margin-bottom: 10px;
+            border-radius: 40%;
+            box-shadow: 0px 10px 10px 0px rgb(255, 251, 5);
+        }
+
+        .fontp {
+            font-size: 17px;
+            color: white;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 40%;
+            box-shadow: 0px 10px 10px 0px rgb(255, 251, 5);
+        }
+
+        .fontp:hover {
+            box-shadow: 0px 10px 10px 0px rgba(216, 13, 13, 0.4);
+        }
+
+        .fonth2:hover {
+            box-shadow: 0px 10px 10px 0px rgba(216, 13, 13, 0.4);
+        }
+
+        .TERRA::after {
+            content: "";
+            position: absolute;
+            display: block;
+            width: 70px;
+            height: 3px;
+            background: rgb(255, 251, 5);
+            bottom: -10%;
+            left: calc(50% - 25px);
+        }
+
+        .TERRA {
+            font-size: 32px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            position: relative;
+        }
+
+        /* section two */
+        .sectiontwo {
+            width: 100%;
+            background-color: black;
+        }
+
+        img {
+            border-radius: 25px;
+            box-shadow: 10px 10px 10px 0px rgb(255, 251, 5);
+            transition: all 1s;
+        }
+
+        img:hover {
+            box-shadow: 10px 10px 10px 0px rgba(216, 13, 13, 0.4);
+        }
+
+        .acrim {
+            color: rgba(216, 13, 13, 0.4);
+        }
+
+        .acrim:hover {
+            color: rgb(255, 251, 5);
+        }
+    </style>
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../webfonts">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="sectionone  pb-5">
+        <div class="layer position-absolute top-0 bottom-0 start-0 end-0  ">
+            <nav class="navbar navbar-expand-lg fixed">
+                <div class="container d-flex align-baseline">
+                    <h1 class="navbar-brand" style="color: white;">Aliens<span style="color: yellow;">.</span></h1>
+                    <div class="dropdown">
+                        <i class="fa-solid fa-bars fa-2x fa-light"></i>
+                        <div class="dropdown-content">
+                            <a href="../index.html">HOME</a>
+                            <a href="ACRIMSAT.html">ACRIMSAT</a>
+                            <a href="AQUA.html">AQUA</a>
+                            <a href="AURA.html">AURA</a>
+                            <a href="ICESAT.html">ICESAT</a>
+                            <a href="Jason-1.html">JASON-1</a>
+                            <a href="Landsat 7.html">LANDSAT</a>
+                            <a href="SAGE-III.html">SAGE-III</a>
+                            <a href="QuikSCAT.html">QUIKSCAT</a>
+                            <a href="SORCE.html">SORCE</a>
+                        </div>
+                    </div>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- section two  -->
+
+
+    <div class="sectiontwo">
+        <div class="text-center text-white pt-5 TERRA">
+            <h1>TERRA</h1>
+        </div>
+        <div class="text-center p-5 img">
+            <img src="../image/Picture10.png" class="w-25" alt="TERRA">
+        </div>
+        <div class="container d-flex align-content-between text-center text-light pb-5">
+            <div class="col-6">
+                <ul style="list-style: none;">
+                    <li><strong>Status </strong>: Current, Extended Mission.</li>
+                    <li><strong>Mission Category </strong>: Earth Observing System (EOS), A-Train.</li>
+                    <li><strong>Launch Date </strong>: December 18, 1999.</li>
+                    <li><strong>Launch Location </strong>: Vandenberg Air Force Base, CA.</li>
+                    <li><strong>Actual Completion Date </strong>: December 18, 2005.</li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul style="list-style: none;">
+                    <li><strong>Relevant Science Focus Areas </strong>:</li>
+                    <li>Atmospheric Composition.</li>
+                    <li>Carbon Cycle, Ecosystems, and Biogeochemistry.</li>
+                    <li>Climate Variability and Change.</li>
+                    <li>Water and Energy Cycle.</li>
+                    <li>Earth Surface and Interior.</li>
+                    <li>Weather.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-light">
+            <h1 class="TERRA text-center">Science Goals</h1>
+            <ul class="p-5">
+                <li>Provide the first global and seasonal measurements of the Earth system, <br>
+                    including those of snow and ice, surface temperature, clouds, water vapor, <br>
+                    land cover, and land and ocean biological productivity.</li>
+                <li>Improve our ability to detect human impacts on the Earth system and climate, <br>
+                    identify the & rsquo;fingerprint& rsquo; of human activity on climate, <br>
+                    and predict climate change by using the new global observations in climate models.</li>
+                <li>Help develop technologies for disaster prediction, characterization, <br>
+                    and risk reduction from wildfires, volcanoes, floods, and droughts.</li>
+                <li>Start long-term monitoring of global climate change and environmental change.</li>
+            </ul>
+        </div>
+        <div class="container d-flex align-content-between row text-light pb-5">
+            <div class="col-lg-6 col-sm-12">
+                <h1 class="TERRA text-center">Related Applications</h1>
+                <ul>
+                    <li>Agricultural Efficiency.</li>
+                    <li>Air Quality.</li>
+                    <li>Carbon Management.</li>
+                    <li>Coastal Management.</li>
+                    <li>Disaster Management.</li>
+                    <li>Ecological Forecasting.</li>
+                    <li>Energy Management.</li>
+                    <li>Homeland Security.</li>
+                    <li>Invasive Species.</li>
+                    <li>Public Health.</li>
+                    <li>Water Management.</li>
+                </ul>
+
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h1 class="TERRA text-center">Related Links</h1>
+                <ul style="list-style: none;">
+                    <li class="text-center pt-2">ASTER Instrument :<a class="acrim"
+                            href="http://asterweb.jpl.nasa.gov/">
+                            http://asterweb.jpl.nasa.gov/</a></li>
+                    <li class="text-center pt-2">MISR Instrument :<a class="acrim" href="http://www-misr.jpl.nasa.gov/">
+                            http://www-misr.jpl.nasa.gov/</a></li>
+                    <li class="text-center pt-2">MODIS Instrument :<a class="acrim" href="http://modis.gsfc.nasa.gov/">
+                            http://modis.gsfc.nasa.gov/</a></li>
+                    <li class="text-center pt-2">MOPITT Instrument :<a class="acrim"
+                            href="http://www.atmosp.physics.utoronto.ca/MOPITT/home.html">
+                            http://www.atmosp.physics.utoronto.ca/MOPITT/home.html</a></li>
+                    <li class="text-center pt-2">Terra Homepage :<a class="acrim" href="http://terra.nasa.gov/">
+                            http://terra.nasa.gov/</a></li>
+                    <li class="text-center pt-2">Terra Imagery :<a class="acrim"
+                            href="http://visibleearth.nasa.gov/view_cat.php?categoryID=0">
+                            http://visibleearth.nasa.gov/view_cat.php?categoryID=0</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
